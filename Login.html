@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+{
+    margin: 0;
+    padding: 0;
+    background-color:#6abadeba;
+    font-family: 'Arial';
+}
+.login{
+        width: 382px;
+        overflow: hidden;
+        margin: auto;
+        margin: 30px 0 0 450px;
+        padding: 150px 80px 80px 80px;
+       
+        border-radius: 15px ;
+
+}
+h2{
+    text-align: center;
+    color: White;
+    padding: 20px;
+}
+label{
+    color: White;
+    font-size: 17px;
+}
+#Uname{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 8px;
+}
+#Pass{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 8px;
+
+}
+#log{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: black;
+
+
+}
+span{
+    color: white;
+    font-size: 17px;
+}
+a{
+    float: right;
+    background-color: grey;
+}
+.btn{
+  padding:15px 100px;
+}
+input[type=button]:hover{
+    background-color: grey;
+    color:black;
+}
+    </style>
+</head>
+<body>
+    <div class="login">
+    <form id="login" method="get" action="login.php">
+        <label><b>User Name
+        </b>
+        </label>
+        <input type="text" name="Uname" id="Uname" placeholder="Username">
+        <br><br>
+        <label><b>Password
+        </b>
+        </label>
+        <input type="Password" name="Pass" id="Pass" placeholder="Password">
+        <br><br>
+        <div class="btn">
+        <input type="button" name="log" id="log" value="Log In"> <br>
+      </div>
+    </form>
+</div>
+
+</body>
+</html>
