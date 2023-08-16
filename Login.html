@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+     {
+    margin: 0;
+    padding: 0;
+    background-color:#6abadeba;
+    font-family: 'Arial';
+    }
+.login{
+        width: 382px;
+        overflow: hidden;
+        margin: auto;
+        margin: 110px 440px;
+        padding: 40px;
+        background-color: white;
+        border-radius: 10px ;
+
+}
+h2{
+    text-align: center;
+    color: #8ebcd1ba;
+}
+label{
+    color: #8ebcd1ba;
+    font-size: 17px;
+}
+#Uname{
+    width: 350px;
+    height: 30px;
+    border: none;
+    padding:7px;
+}
+#Pass{
+    width: 350px;
+    height: 30px;
+    border: none;
+    padding:7px;
+}
+#log{
+    width: 150px;
+    height: 30px;
+    border: none;
+    padding-left: 7px;
+    border-radius: 2px;
+}
+
+.btn{
+  padding:15px 100px;
+}
+input[type=text],input[type=password]{
+    background-color: rgb(243, 243, 243);
+  
+}
+input[type=button]{
+    background-color: #8ebcd1ba;
+   
+}
+input[type=button]:hover{
+    background-color: rgb(243, 243, 243);
+    color:black;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-size: 12px;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+    <div class="login">
+        <h2>LOGIN</h2>
+    <form id="login" method="get" action="login.php">
+        <label><b>User Name
+        </b>
+        </label><br>
+        <input type="text" name="Uname" id="Uname" placeholder="Username">
+        <br><br>
+        <label><b>Password
+        </b>
+        </label><br>
+        <input type="Password" name="Pass" id="Pass" placeholder="Password">
+        <br><br>
+        <div class="btn">
+        <input type="button" name="log" id="log" value="Log In">
+       </div>
+        <p>Not Registered? <a href="Register.html">create an account</a></p>
+     
+    </div>
+    </form>
+
+
+
+</body>
+</html>
